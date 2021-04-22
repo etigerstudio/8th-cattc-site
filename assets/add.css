@@ -91,10 +91,10 @@
 			}
 
 			#picLbtn{
-				left: 0px;
+				display: none;
 			}
 			#picRbtn{
-				right: 0px;
+				display: none;
 			}
 }
 
