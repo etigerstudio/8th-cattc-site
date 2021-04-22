@@ -1,4 +1,55 @@
 /*通用 */
+*{
+				margin: 0;
+				padding: 0;
+			}
+			#outer{
+				width: 500px;
+				height: 333px;
+				margin: 50px auto;
+				position: relative;
+				overflow: hidden;
+			}
+			#imgList{
+				list-style: none;
+				position: absolute;
+				left: 0px;
+			}
+			#imgList>li{
+				float: left;
+			}
+			#imgList>li>img{
+				width: 500px;
+				height: 333px;
+			}
+			#navContainer{
+				position: absolute;
+				bottom: 15px;
+			}
+			
+			#navContainer>a{
+				z-index: 5;
+				float: left;
+				width: 15px;
+				height: 15px;
+				background-color: red;
+				margin: 0 5px;
+				opacity: 0.5;
+				filter: alpha(opacity=50);
+				border-radius: 100%;
+			}
+			#navContainer>a:hover{
+				background-color: black;
+			}
+			#picLbtn, #picRbtn{
+				position: absolute;
+			}
+			#picLbtn{
+				left: 8px;
+			}
+			#picRbtn{
+				right: 8px;
+			}
 .module-title {
 	text-align: center;
 	font-size: 46px;
@@ -32,6 +83,7 @@
 	#hzgx-right {
 		width: 90%;
 	}
+
 }
 
 #hzgx {
@@ -57,3 +109,4 @@
 	width: 200px;
 	margin: -10px 50px 20px 50px;
 }
+
