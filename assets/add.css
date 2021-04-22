@@ -1,8 +1,8 @@
 /*通用 */
 *{
-				margin: 0;
-				padding: 0;
-			}
+	margin: 0;
+	padding: 0;
+}
 			#outer{
 				width: 500px;
 				height: 333px;
@@ -76,13 +76,25 @@
 }
 
 /* 移动端适用的css */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
 	#hzgx-left {
 		width: 100%;
 	}
 	#hzgx-right {
 		width: 90%;
 	}
+	#outer{
+		width: 300px;
+	}
+
+			#picLbtn{
+				left: 0px;
+			}
+			#picRbtn{
+				right: 0px;
+			}
+}
+
 
 }
 
