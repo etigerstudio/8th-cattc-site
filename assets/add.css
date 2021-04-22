@@ -86,6 +86,9 @@
 	#outer{
 		width: 300px;
 	}
+	#imgList>li>img{
+				width: 300px;
+			}
 
 			#picLbtn{
 				left: 0px;
