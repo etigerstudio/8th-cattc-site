@@ -1,0 +1,59 @@
+/*通用 */
+.module-title {
+	text-align: center;
+	font-size: 46px;
+	margin-bottom: 30px;
+}
+
+/*合作高校 */
+#hzgx-content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+	margin: auto;
+}
+
+#hzgx-left {
+	width: 50rem;
+}
+
+#hzgx-right {
+	width: 40rem;
+}
+
+/* 移动端适用的css */
+@media screen and (max-width: 600px) {
+	#hzgx-left {
+		width: 100%;
+	}
+	#hzgx-right {
+		width: 90%;
+	}
+}
+
+#hzgx {
+	margin-bottom: 50px;
+}
+
+/* 二维码 */
+#ewm {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	width: 80%;
+	margin: auto;
+}
+
+.ewm-title {
+	text-align: center;
+}
+
+.ewm-img {
+	width: 200px;
+	margin: -10px 50px 20px 50px;
+}
