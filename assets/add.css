@@ -43,6 +43,7 @@
 			}
 			#picLbtn, #picRbtn{
 				position: absolute;
+				width: 35px;
 			}
 			#picLbtn{
 				left: 8px;
