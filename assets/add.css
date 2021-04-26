@@ -132,3 +132,19 @@
 	margin: 10px 50px 20px 50px;
 }
 
+/* 注册框 */
+#signupcontainer {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#word1 {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 90%;
+    font-size: 15px;
+}
+
+#word2 {
+    margin-top: 30px;
+}
