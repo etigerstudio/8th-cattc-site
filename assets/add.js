@@ -1,13 +1,15 @@
 // DOM加载完毕后立即执行
 document.addEventListener("DOMContentLoaded", function(event) {
 	var imgList = document.getElementById("imgList");
+	var textList = document.getElementById("textList");
 	var navContainer = document.getElementById("navContainer");
 	var outer = document.getElementById("outer");
 	var picLbtn = document.getElementById("picLbtn");
 	var picRbtn = document.getElementById("picRbtn");
 	var imgArr = document.querySelectorAll("#imgList>li>img");
+	var textArr = document.querySelectorAll("#textList>li")
 	/*设置按钮居中*/
-	navContainer.style.left = (outer.offsetWidth - navContainer.offsetWidth)/2 + "px";
+	navContainer.style.left = (outer.offsetWidth - navContainer.offsetWidth) + "px";
 	var tempBtnTop = (outer.offsetHeight - picLbtn.offsetHeight)/2 + "px";
 	picLbtn.style.top = tempBtnTop;
 	picRbtn.style.top = tempBtnTop;
@@ -25,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	var width = widthObject[0];
 	//-- 根据图片的数量设置ul的总宽度
 	imgList.style.width = width*imgArr.length+"px";
+	textList.style.width = width*imgArr.length+"px";
 	function move(obj, attr, target, speed, callback){
 		clearInterval(obj.timer);
 		var current = parseInt(getStyle(obj, attr));
@@ -54,6 +57,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		if(index >= imgArr.length - 1){
 			index = 0;
 			imgList.style.left = 0;
+			textList.style.left = 0;
 		}
 	}
 	function setRed(){
@@ -72,6 +76,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 				setA();
 				setRed();
 			});
+			move(textList , "left" , -width*index , 20 , function(){
+				setA();
+				setRed();
+			});
 		},3000);
 	}
 	//--实现点击导航点切换图片
@@ -85,6 +93,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			move(imgList , "left" , -width*index , 20 , function(){
 				autoChange();
 			});
+			move(textList , "left" , -width*index , 20 , function(){
+				autoChange();
+			});
 		}
 		picLbtn.onclick = function(){
 			clearInterval(timer);
@@ -95,6 +106,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			move(imgList , "left" , -width*index , 20 , function(){
 				autoChange();
 			});
+			move(textList , "left" , -width*index , 20 , function(){
+				autoChange();
+			});
 		}
 		picRbtn.onclick = function(){
 			clearInterval(timer);
@@ -103,6 +117,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			}
 			setRed();
 			move(imgList , "left" , -width*index , 20 , function(){
+				autoChange();
+			});
+			move(textList , "left" , -width*index , 20 , function(){
 				autoChange();
 			});
 		}
@@ -120,6 +137,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		distanceX = moveX - startX; //--移动的距离=现在-初始
 		isMove = true;//证明滑动过
 		move(imgList , "left" , -width*index+distanceX , 20 , function(){});
+		move(textList , "left" , -width*index+distanceX , 20 , function(){});
 	});
 	outer.addEventListener('touchend', function(){
 		if(isMove && Math.abs(distanceX) > width/3){
@@ -130,9 +148,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
 				index = index + 1;
 			}
 			move(imgList , "left" , -width*index, 20 , function(){});
+			move(textList , "left" , -width*index, 20 , function(){});
 		}
 		else if(isMove && Math.abs(distanceX) < width/3){
 			move(imgList , "left" , -width*index, 20 , function(){});
+			move(textList , "left" , -width*index, 20 , function(){});
 		}
 		setRed();
 		autoChange();
