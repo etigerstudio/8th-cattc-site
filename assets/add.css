@@ -39,7 +39,7 @@
 	position: absolute;
 	bottom: 15px;
 }
-#textContainer{
+#textContainer {
 	position: absolute;
 	bottom: 30px;
 }
@@ -98,17 +98,17 @@
 #hzgx-right {
 	width: 40rem;
 }
-.title{
+.title {
 	text-align: center;
 	margin-top: 50px;
 	margin-left: 30px;
 	margin-right: 30px;
 	color: transparent;
-	background-color : black;
-	text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
-	-webkit-background-clip : text;
+	background-color: black;
+	text-shadow: rgba(255, 255, 255, 0.5) 0 5px 6px,
+		rgba(255, 255, 255, 0.2) 1px 3px 3px;
+	-webkit-background-clip: text;
 }
-
 
 /* 移动端适用的css */
 @media screen and (max-width: 500px) {
@@ -163,18 +163,18 @@
 }
 
 /* 注册框 */
-#signupcontainer {
-    margin-top: 80px;
-    margin-bottom: 80px;
+#signupcontainer {
+	margin-top: 80px;
+	margin-bottom: 80px;
 }
 
-#word1 {
-    margin: auto;
-    margin-bottom: 30px;
-    width: 90%;
-    font-size: 15px;
+#word1 {
+	margin: auto;
+	margin-bottom: 30px;
+	width: 90%;
+	font-size: 15px;
 }
 
-#word2 {
-    margin-top: 30px;
+#word2 {
+	margin-top: 30px;
 }
