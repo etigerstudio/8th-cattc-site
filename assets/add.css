@@ -111,6 +111,21 @@
 }
 
 /* 移动端适用的css */
+@media screen and (max-width: 800px){
+	#outer {
+		width: 500px;
+		height: 312.5px;
+	}
+	#imgList > li > img {
+		width: 500px;
+		height: 312.5px;
+	}
+	#textList > li > p {
+		border-left: 8px;
+		width: 500px;
+	}
+
+}
 @media screen and (max-width: 500px) {
 	#hzgx-left {
 		width: 100%;
@@ -135,6 +150,10 @@
 	}
 	#picRbtn {
 		display: none;
+	}
+	#navContainer > a{
+		width: 10px;
+		height: 10px;
 	}
 }
 
