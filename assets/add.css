@@ -109,6 +109,12 @@
 		rgba(255, 255, 255, 0.2) 1px 3px 3px;
 	-webkit-background-clip: text;
 }
+.etched-text {
+  text-shadow: 0 2px grey;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
 
 /* 移动端适用的css */
 @media screen and (max-width: 800px){
