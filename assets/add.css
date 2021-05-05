@@ -9,6 +9,7 @@
 	margin: 50px auto;
 	position: relative;
 	overflow: hidden;
+	background-color: red;
 }
 #imgList {
 	list-style: none;
