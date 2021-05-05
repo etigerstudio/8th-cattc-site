@@ -110,14 +110,14 @@
 	-webkit-background-clip: text;
 }
 .etched-text {
-  text-shadow: 0 2px grey;
-  font-size: 1rem;
-  font-weight: bold;
-  color: white;
+	text-shadow: 0 2px grey;
+	font-size: 1rem;
+	font-weight: bold;
+	color: white;
 }
 
 /* 移动端适用的css */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
 	#outer {
 		width: 500px;
 		height: 312.5px;
@@ -130,7 +130,6 @@
 		border-left: 8px;
 		width: 500px;
 	}
-
 }
 @media screen and (max-width: 500px) {
 	#hzgx-left {
@@ -157,7 +156,7 @@
 	#picRbtn {
 		display: none;
 	}
-	#navContainer > a{
+	#navContainer > a {
 		width: 10px;
 		height: 10px;
 	}
@@ -184,7 +183,7 @@
 
 .ewm-img {
 	width: 200px;
-	margin: 10px 50px 20px 50px;
+	margin: 10px 100px 20px 100px;
 }
 
 /* 注册框 */
