@@ -1,9 +1,12 @@
 body {
-	font-family: Jost;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu,
+		Helvetica Neue, Helvetica, Arial;
 }
 .display-1 {
 	/* 
 	font-family: "SourceHanSansCN-Normal"; */
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu,
+		Helvetica Neue, Helvetica, Arial;
 	font-size: 3rem;
 	line-height: 1.1;
 }
@@ -13,6 +16,8 @@ body {
 .display-2 {
 	/* 
 	font-family: "SourceHanSansCN-Normal"; */
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu,
+		Helvetica Neue, Helvetica, Arial;
 	font-size: 2.6rem;
 	line-height: 1.1;
 }
@@ -22,6 +27,8 @@ body {
 .display-4 {
 	/* 
 	font-family: "SourceHanSansCN-Normal"; */
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu,
+		Helvetica Neue, Helvetica, Arial;
 	font-size: 1.1rem;
 	line-height: 1.5;
 }
@@ -31,6 +38,8 @@ body {
 .display-5 {
 	/* 
 	font-family: "SourceHanSansCN-Normal"; */
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu,
+		Helvetica Neue, Helvetica, Arial;
 	font-size: 1.8rem;
 	line-height: 1.5;
 }
@@ -41,6 +50,8 @@ body {
 /* yuyuquicksearch */
 .display-6 {
 	/* 	font-family: "SourceHanSansCN-Normal"; */
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu,
+		Helvetica Neue, Helvetica, Arial;
 	font-size: 0.9rem;
 	color: #838688;
 	font-weight: bold;
@@ -48,6 +59,8 @@ body {
 }
 .display-7 {
 	/* font-family: "SourceHanSansCN-Normal"; */
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu,
+		Helvetica Neue, Helvetica, Arial;
 	font-size: 1rem;
 	line-height: 1.5;
 }
@@ -615,6 +628,8 @@ a:hover {
 .form-control {
 	/* 
 	font-family: "SourceHanSansCN-Normal"; */
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu,
+		Helvetica Neue, Helvetica, Arial;
 	font-size: 1.1rem;
 	line-height: 1.5;
 	font-weight: 400;
@@ -631,6 +646,8 @@ a:hover {
 .form-control:-webkit-input-placeholder {
 	/* 
 	font-family: "SourceHanSansCN-Normal"; */
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu,
+		Helvetica Neue, Helvetica, Arial;
 	font-size: 1.1rem;
 	line-height: 1.5;
 	font-weight: 400;
